@@ -4,7 +4,7 @@ Installation:
 ---
 
 ```bash
-composer require kaizen-agency/php-cs-rule-set
+composer require --dev friendsofphp/php-cs-fixer kaizen-agency/php-cs-rule-set
 ```
 
 Configuration:
@@ -29,6 +29,14 @@ return (new PhpCsFixer\Config())
     ->setFinder($finder)
     // ->setIndent("  ") // Uncomment to use two spaces instead of four
     ->setParallelConfig(PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect());
+```
+
+Usage:
+---
+
+```bash
+vendor/bin/php-cs-fixer check # Run the linter
+vendor/bin/php-cs-fixer fix # Fix the code
 ```
 
 Available rules:
