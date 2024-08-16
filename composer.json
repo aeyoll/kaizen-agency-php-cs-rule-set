@@ -1,0 +1,12 @@
+{
+    "name": "kaizen-agency/php-cs-rule-set",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KaizenAgency\\PhpCsRuleSet\\": "src/"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.62"
+    }
+}
