@@ -1,6 +1,6 @@
 <?php
 
-namespace KaizenAgency\PhpCsRuleSet;
+namespace KaizenAgency\PhpCsRuleSet\Config;
 
 use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 

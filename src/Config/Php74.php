@@ -1,6 +1,6 @@
 <?php
 
-namespace KaizenAgency\PhpCsRuleSet;
+namespace KaizenAgency\PhpCsRuleSet\Config;
 
 class Php74Ruleset extends Php73Ruleset
 {

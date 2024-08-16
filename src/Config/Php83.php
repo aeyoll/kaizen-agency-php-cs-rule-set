@@ -1,6 +1,6 @@
 <?php
 
-namespace KaizenAgency\PhpCsRuleSet;
+namespace KaizenAgency\PhpCsRuleSet\Config;
 
 class Php83Ruleset extends Php82Ruleset
 {
