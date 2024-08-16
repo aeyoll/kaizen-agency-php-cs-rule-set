@@ -23,6 +23,6 @@ $finder = (new PhpCsFixer\Finder())
     ]);
 
 return (new PhpCsFixer\Config())
-    ->setRules((new KaizenAgency\PhpCsRuleSet\Config\Php())->getRules())
+    ->setRules((new KaizenAgency\PhpCsRuleSet\Config\PhpRuleSet())->getRules())
     ->setFinder($finder)
     ->setParallelConfig(PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect());

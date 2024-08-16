@@ -4,7 +4,7 @@ namespace KaizenAgency\PhpCsRuleSet\Config;
 
 use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
 
-class PhpRuleset extends AbstractRuleSetDescription
+class PhpRuleSet extends AbstractRuleSetDescription
 {
     public function getRules(): array
     {

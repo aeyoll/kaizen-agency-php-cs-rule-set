@@ -2,12 +2,12 @@
 
 namespace KaizenAgency\PhpCsRuleSet\Config;
 
-class Php70Ruleset extends PhpRuleset
+class Php83RuleSet extends Php82RuleSet
 {
     public function getRules(): array
     {
         return array_merge(parent::getRules(), [
-            '@PHP70Migration' => true,
+            '@PHP83Migration' => true,
         ]);
     }
 }
