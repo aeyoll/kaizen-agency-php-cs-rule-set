@@ -15,7 +15,7 @@ class PhpRuleSet extends AbstractRuleSetDescription
             'array_indentation' => true,
             'binary_operator_spaces' => true,
             'single_line_after_imports' => true,
-            'blank_line_before_statement' => ['statements' => ['break', 'case', 'continue', 'declare', 'default', 'exit', 'goto', 'include', 'include_once', 'phpdoc', 'require', 'require_once', 'return', 'switch', 'throw', 'try', 'yield', 'yield_from', 'foreach']],
+            'blank_line_before_statement' => ['statements' => ['break', 'case', 'continue', 'declare', 'default', 'exit', 'goto', 'if', 'include', 'include_once', 'phpdoc', 'require', 'require_once', 'return', 'switch', 'throw', 'try', 'yield', 'yield_from', 'foreach']],
             'cast_spaces' => true,
             'concat_space' => ['spacing' => 'one'],
             'no_singleline_whitespace_before_semicolons' => true,
