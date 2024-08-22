@@ -10,11 +10,12 @@ class PhpRuleSet extends AbstractRuleSetDescription
     {
         return [
             '@PSR12' => true,
+            '@PhpCsFixer' => true,
             'array_syntax' => ['syntax' => 'short'],
             'array_indentation' => true,
             'binary_operator_spaces' => true,
             'single_line_after_imports' => true,
-            'blank_line_before_statement' => ['statements' => ['return']],
+            'blank_line_before_statement' => ['statements' => ['break', 'case', 'continue', 'declare', 'default', 'exit', 'goto', 'include', 'include_once', 'phpdoc', 'require', 'require_once', 'return', 'switch', 'throw', 'try', 'yield', 'yield_from', 'foreach']],
             'cast_spaces' => true,
             'concat_space' => ['spacing' => 'one'],
             'no_singleline_whitespace_before_semicolons' => true,
@@ -41,6 +42,7 @@ class PhpRuleSet extends AbstractRuleSetDescription
             'no_whitespace_in_blank_line' => true,
             'nullable_type_declaration_for_default_null_value' => true,
             'whitespace_after_comma_in_array' => true,
+            'yoda_style' => false,
         ];
     }
 
