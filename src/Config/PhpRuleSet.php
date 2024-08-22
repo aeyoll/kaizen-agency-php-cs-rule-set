@@ -31,6 +31,7 @@ class PhpRuleSet extends AbstractRuleSetDescription
             'phpdoc_to_comment' => true,
             'phpdoc_trim' => true,
             'single_blank_line_at_eof' => true,
+            'single_quote' => true,
             'ternary_operator_spaces' => true,
             'ordered_imports' => [
                 'sort_algorithm' => 'alpha',
