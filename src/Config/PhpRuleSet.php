@@ -2,9 +2,9 @@
 
 namespace KaizenAgency\PhpCsRuleSet\Config;
 
-use PhpCsFixer\RuleSet\AbstractRuleSetDescription;
+use PhpCsFixer\RuleSet\AbstractRuleSetDefinition;
 
-class PhpRuleSet extends AbstractRuleSetDescription
+class PhpRuleSet extends AbstractRuleSetDefinition
 {
     public function getRules(): array
     {
